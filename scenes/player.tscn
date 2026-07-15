@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bcqm18806pgak"]
+
+[ext_resource type="Script" uid="uid://bwb8q17rb6qhp" path="res://scripts/player.gd" id="1_3vyb7"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_k0juu"]
+height = 4.0
+radius = 1.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_k0juu"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_xypo3"]
+material = SubResource("StandardMaterial3D_k0juu")
+top_radius = 1.0
+bottom_radius = 1.0
+height = 4.0
+
+[node name="Player" type="CharacterBody3D" unique_id=1052572126]
+script = ExtResource("1_3vyb7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=682343243]
+shape = SubResource("CylinderShape3D_k0juu")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2089299480]
+mesh = SubResource("CylinderMesh_xypo3")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=918766992]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.05157, 0)
+
+[node name="RayCast3D" type="RayCast3D" parent="Camera3D" unique_id=2008553274]
+transform = Transform3D(0.12530166, -0.9921187, 0, 0.9921187, 0.12530166, 0, 0, 0, 1, 0, 0, 0)
+target_position = Vector3(0, 0, -8)
