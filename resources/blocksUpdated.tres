@@ -1,16 +1,22 @@
-[gd_scene format=4 uid="uid://drvuwl2ruviie"]
+[gd_resource type="MeshLibrary" format=4 uid="uid://dc4yuyw1id84p"]
 
-[ext_resource type="Texture2D" uid="uid://dmil2n3l3smgm" path="res://models/WoodPlanks_Blocks_PixelArt.png" id="1_ow8de"]
-[ext_resource type="Texture2D" uid="uid://dgkdhltdpsfyy" path="res://models/Leaves_Blocks_PixelArt.png" id="2_1mwmw"]
-[ext_resource type="Texture2D" uid="uid://beamwa6n1vwdv" path="res://models/Dirt_Blocks_PixelArt.png" id="3_wro84"]
-[ext_resource type="Texture2D" uid="uid://g64mody3ylgm" path="res://models/Grass_Blocks_PixelArt.png" id="4_rgft6"]
-[ext_resource type="Texture2D" uid="uid://cnynux3t1lbd" path="res://models/Stone_Blocks_PixelArt.png" id="5_cirlu"]
-[ext_resource type="Texture2D" uid="uid://cdknlebwbk02f" path="res://models/Wood_Blocks_PixelArt.png" id="6_mpxed"]
+[ext_resource type="Texture2D" uid="uid://dmil2n3l3smgm" path="res://models/WoodPlanks_Blocks_PixelArt.png" id="1_x5jma"]
+[ext_resource type="Texture2D" uid="uid://b8xjn05nhnk6i" path="res://resources/icons/woodplanks.tres" id="2_dk4fr"]
+[ext_resource type="Texture2D" uid="uid://dgkdhltdpsfyy" path="res://models/Leaves_Blocks_PixelArt.png" id="2_w8vfn"]
+[ext_resource type="Texture2D" uid="uid://beamwa6n1vwdv" path="res://models/Dirt_Blocks_PixelArt.png" id="3_xsksf"]
+[ext_resource type="Texture2D" uid="uid://njruyvbcydsq" path="res://resources/icons/leaves.tres" id="4_45otx"]
+[ext_resource type="Texture2D" uid="uid://g64mody3ylgm" path="res://models/Grass_Blocks_PixelArt.png" id="4_hl0fu"]
+[ext_resource type="Texture2D" uid="uid://cnynux3t1lbd" path="res://models/Stone_Blocks_PixelArt.png" id="5_0526i"]
+[ext_resource type="Texture2D" uid="uid://dgdnlhoem2pc7" path="res://resources/icons/dirt.tres" id="6_dnq4o"]
+[ext_resource type="Texture2D" uid="uid://cdknlebwbk02f" path="res://models/Wood_Blocks_PixelArt.png" id="6_fmqco"]
+[ext_resource type="Texture2D" uid="uid://bgo0kj1dajiuw" path="res://resources/icons/grass.tres" id="8_jk56h"]
+[ext_resource type="Texture2D" uid="uid://dhrwl6dcpvxuv" path="res://resources/icons/stone.tres" id="10_41oh3"]
+[ext_resource type="Texture2D" uid="uid://brkvkotbc1iro" path="res://resources/icons/wood.tres" id="12_qwmxk"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0v4qg"]
 resource_name = "Blocks_Pixelart"
 cull_mode = 2
-albedo_texture = ExtResource("1_ow8de")
+albedo_texture = ExtResource("1_x5jma")
 texture_filter = 2
 metadata/_gltf_primary_texture_coord = 0
 
@@ -28,7 +34,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_y7lbs"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_x5jma"]
 resource_name = "WoodPlanks_Cube_598"
 _surfaces = [{
 "aabb": AABB(-1, -1, -1, 2, 2, 2),
@@ -52,7 +58,7 @@ size = Vector3(2, 2, 2)
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r37co"]
 resource_name = "Blocks_Pixelart"
 cull_mode = 2
-albedo_texture = ExtResource("2_1mwmw")
+albedo_texture = ExtResource("2_w8vfn")
 texture_filter = 2
 metadata/_gltf_primary_texture_coord = 0
 
@@ -70,7 +76,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_vol6k"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_hl0fu"]
 resource_name = "Leaves_Cube_604"
 _surfaces = [{
 "aabb": AABB(-1, -1, -1, 2, 2, 2),
@@ -91,7 +97,7 @@ shadow_mesh = SubResource("ArrayMesh_gqdq5")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dpuoh"]
 resource_name = "Blocks_Pixelart"
 cull_mode = 2
-albedo_texture = ExtResource("3_wro84")
+albedo_texture = ExtResource("3_xsksf")
 texture_filter = 2
 metadata/_gltf_primary_texture_coord = 0
 
@@ -109,7 +115,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_w2br2"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_ur4v0"]
 resource_name = "Dirt_Cube_003"
 _surfaces = [{
 "aabb": AABB(-1, -1, -1, 2, 2, 2),
@@ -130,7 +136,7 @@ shadow_mesh = SubResource("ArrayMesh_7r20x")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wvaye"]
 resource_name = "Blocks_Pixelart"
 cull_mode = 2
-albedo_texture = ExtResource("4_rgft6")
+albedo_texture = ExtResource("4_hl0fu")
 texture_filter = 2
 metadata/_gltf_primary_texture_coord = 0
 
@@ -148,7 +154,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_l3c5l"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_e3mkt"]
 resource_name = "Grass_Cube_004"
 _surfaces = [{
 "aabb": AABB(-1, -1, -1, 2, 2, 2),
@@ -169,7 +175,7 @@ shadow_mesh = SubResource("ArrayMesh_n4l0g")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ucch7"]
 resource_name = "Blocks_Pixelart"
 cull_mode = 2
-albedo_texture = ExtResource("5_cirlu")
+albedo_texture = ExtResource("5_0526i")
 texture_filter = 2
 metadata/_gltf_primary_texture_coord = 0
 
@@ -187,7 +193,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_8e7nc"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_5xuie"]
 resource_name = "Stone_Cube_043"
 _surfaces = [{
 "aabb": AABB(-1, -1, -1, 2, 2, 2),
@@ -208,7 +214,7 @@ shadow_mesh = SubResource("ArrayMesh_djqj7")
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tr2ja"]
 resource_name = "Blocks_Pixelart"
 cull_mode = 2
-albedo_texture = ExtResource("6_mpxed")
+albedo_texture = ExtResource("6_fmqco")
 texture_filter = 2
 metadata/_gltf_primary_texture_coord = 0
 
@@ -226,7 +232,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_jjaxq"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_uncij"]
 resource_name = "Wood_Cube_601"
 _surfaces = [{
 "aabb": AABB(-1, -1, -1, 2, 2, 2),
@@ -244,52 +250,52 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_sxr8v")
 
-[node name="Blocks" type="Node3D" unique_id=601845597]
-
-[node name="WoodPlanks" type="MeshInstance3D" parent="." unique_id=57727978]
-mesh = SubResource("ArrayMesh_y7lbs")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="WoodPlanks" unique_id=1514277539]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="WoodPlanks/StaticBody3D" unique_id=644061564]
-shape = SubResource("BoxShape3D_xypo3")
-
-[node name="Leaves" type="MeshInstance3D" parent="." unique_id=2084625396]
-mesh = SubResource("ArrayMesh_vol6k")
-
-[node name="StaticBody3D2" type="StaticBody3D" parent="Leaves" unique_id=1275357905]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Leaves/StaticBody3D2" unique_id=636202991]
-shape = SubResource("BoxShape3D_xypo3")
-
-[node name="Dirt" type="MeshInstance3D" parent="." unique_id=1730590262]
-mesh = SubResource("ArrayMesh_w2br2")
-
-[node name="StaticBody3D3" type="StaticBody3D" parent="Dirt" unique_id=1405398249]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Dirt/StaticBody3D3" unique_id=731212468]
-shape = SubResource("BoxShape3D_xypo3")
-
-[node name="Grass" type="MeshInstance3D" parent="." unique_id=2006056365]
-mesh = SubResource("ArrayMesh_l3c5l")
-
-[node name="StaticBody3D5" type="StaticBody3D" parent="Grass" unique_id=2142324385]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Grass/StaticBody3D5" unique_id=12717880]
-shape = SubResource("BoxShape3D_xypo3")
-
-[node name="Stone" type="MeshInstance3D" parent="." unique_id=804032472]
-mesh = SubResource("ArrayMesh_8e7nc")
-
-[node name="StaticBody3D4" type="StaticBody3D" parent="Stone" unique_id=1459761970]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Stone/StaticBody3D4" unique_id=1676150461]
-shape = SubResource("BoxShape3D_xypo3")
-
-[node name="Wood" type="MeshInstance3D" parent="." unique_id=586476395]
-mesh = SubResource("ArrayMesh_jjaxq")
-
-[node name="StaticBody3D6" type="StaticBody3D" parent="Wood" unique_id=569781165]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Wood/StaticBody3D6" unique_id=2067370933]
-shape = SubResource("BoxShape3D_xypo3")
+[resource]
+item/0/name = "WoodPlanks"
+item/0/mesh = SubResource("ArrayMesh_x5jma")
+item/0/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/mesh_cast_shadow = 1
+item/0/shapes = [SubResource("BoxShape3D_xypo3"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
+item/0/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/0/navigation_layers = 1
+item/0/preview = ExtResource("2_dk4fr")
+item/1/name = "Leaves"
+item/1/mesh = SubResource("ArrayMesh_hl0fu")
+item/1/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/1/mesh_cast_shadow = 1
+item/1/shapes = [SubResource("BoxShape3D_xypo3"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
+item/1/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/1/navigation_layers = 1
+item/1/preview = ExtResource("4_45otx")
+item/2/name = "Dirt"
+item/2/mesh = SubResource("ArrayMesh_ur4v0")
+item/2/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/2/mesh_cast_shadow = 1
+item/2/shapes = [SubResource("BoxShape3D_xypo3"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
+item/2/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/2/navigation_layers = 1
+item/2/preview = ExtResource("6_dnq4o")
+item/3/name = "Grass"
+item/3/mesh = SubResource("ArrayMesh_e3mkt")
+item/3/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/3/mesh_cast_shadow = 1
+item/3/shapes = [SubResource("BoxShape3D_xypo3"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
+item/3/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/3/navigation_layers = 1
+item/3/preview = ExtResource("8_jk56h")
+item/4/name = "Stone"
+item/4/mesh = SubResource("ArrayMesh_5xuie")
+item/4/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/4/mesh_cast_shadow = 1
+item/4/shapes = [SubResource("BoxShape3D_xypo3"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
+item/4/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/4/navigation_layers = 1
+item/4/preview = ExtResource("10_41oh3")
+item/5/name = "Wood"
+item/5/mesh = SubResource("ArrayMesh_uncij")
+item/5/mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/5/mesh_cast_shadow = 1
+item/5/shapes = [SubResource("BoxShape3D_xypo3"), Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)]
+item/5/navigation_mesh_transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+item/5/navigation_layers = 1
+item/5/preview = ExtResource("12_qwmxk")

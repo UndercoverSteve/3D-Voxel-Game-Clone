@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dm2lnvjapxn8k"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_xypo3"]
+emission_shape = 3
+emission_box_extents = Vector3(1, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dfgg4"]
+albedo_color = Color(0.51525235, 0.2553492, 0.043667868, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_b1n7w"]
+material = SubResource("StandardMaterial3D_dfgg4")
+size = Vector3(0.2, 0.2, 0.2)
+
+[node name="Node3D" type="Node3D" unique_id=739660653]
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="." unique_id=1234863567]
+emitting = false
+amount = 32
+one_shot = true
+explosiveness = 1.0
+process_material = SubResource("ParticleProcessMaterial_xypo3")
+draw_pass_1 = SubResource("BoxMesh_b1n7w")

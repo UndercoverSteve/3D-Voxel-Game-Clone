@@ -6,5 +6,5 @@ func destroy_block(world_coordinate):
 
 func place_block(world_coordinate, block_index):
 	var map_coordinate = local_to_map(world_coordinate)
-	set_cell_item(map_coordinate, 3)
+	set_cell_item(map_coordinate, block_index)
 	print("Setting Cell")
